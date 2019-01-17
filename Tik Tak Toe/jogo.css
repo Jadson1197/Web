@@ -1,0 +1,31 @@
+#mostrador{
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	width: 150px;
+}
+
+.space{
+	height: 65px;
+	width: 80px;
+	float: left;
+	border: 2px solid black;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.tabuleiro{
+	margin: auto;
+	width: 252px;
+}
+
+#reload{
+	margin: auto;
+	width: 85px;
+	height: 29px;
+}
+
+#button{
+	margin-top: 20px;
+}
+
