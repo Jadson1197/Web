@@ -60,9 +60,9 @@ for(let i = 0; i < choices.length; i++){
 		}
 	})
 }
-
+//Timer de 3 a 0 quando clica em Play
 function counter(i){
-	setInterval(function(){//Timer de 3 a 0 quando clica em Play
+	setInterval(function(){
 		if(i < 1){
 			return;
 		}
@@ -93,6 +93,7 @@ function play(){
 			running = false;
 			changeColor(choices[computerOption],normalColor,running);
 			changeColor(user_option,normalColor,running);
+			user_option = undefined;
 		},5000);
 	}
 }
